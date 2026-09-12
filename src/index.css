@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4F7942;
+  --color-secondary: #E5E4E2;
+  --font-saira: "Saira", sans-serif;
+}
+
+* {
+  font-family: "Saira", sans-serif;
+}
