@@ -1,16 +1,73 @@
-# React + Vite
+## 🛠️ Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **React 19** – Frontend library
 
-## React Compiler
+* **Vite** – Fast development server and build tool
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Tailwind CSS** – Utility-first CSS framework
 
-## Expanding the ESLint configuration
+* **Redux Toolkit** – Global state management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React Redux** – Connecting Redux with React
+
+* **Lucide React** – Modern and customizable icons
+
+* **JavaScript (ES6+)** – Application logic
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### 2. Navigate to the project
+
+```bash
+cd blog-web-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Vite will start the development server and provide a local URL, usually:
+
+```text
+http://localhost:5173
+```
+
+### 📦 Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## ⚡ Vite
+
+This project uses **Vite** for a fast and modern development experience, including:
+
+* ⚡ Fast development server
+* 🔥 Hot Module Replacement (HMR)
+* 📦 Optimized production builds
+* 🚀 Fast startup time
+* 🧩 Simple React configuration
