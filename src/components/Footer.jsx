@@ -2,42 +2,11 @@ import React from 'react'
 import Logo from './Logo'
 import { Link } from 'react-router-dom'
 import { MapPin, Phone, Mail } from 'lucide-react'
+import { footerLinks } from '../data'
 
-const Header = () => {
-  const footerLinks = [
-    {
-      title: 'Quick Links',
-      links: [
-        { name: 'Home', path: '/' },
-        { name: 'About us', path: '/about' },
-        { name: 'Blog', path: '/blog' },
-        { name: 'Categories', path: '/categories' },
-        { name: 'Contact', path: '/contact' },
-      ],
-    },
-    {
-      title: 'Categories',
-      links: [
-        { name: 'Lifestyle', path: '/category/lifestyle' },
-        { name: 'Travel', path: '/category/travel' },
-        { name: 'Technology', path: '/category/technology' },
-        { name: 'Business', path: '/category/business' },
-        { name: 'Health', path: '/category/health' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { name: 'Documentation', path: '/docs' },
-        { name: 'FAQ', path: '/faq' },
-        { name: 'Terms & Conditions', path: '/terms' },
-        { name: 'Privacy Policy', path: '/privacy' },
-        { name: 'Contact Us', path: '/contact' },
-      ],
-    },
-  ]
+const Footer = () => {
   return (
-    <div className='grid md:grid-cols-5 grid-cols-1 gap-6 bg-gray-950 text-white p-10 mt-5'>
+    <div className='grid md:grid-cols-5 grid-cols-1 gap-6 bg-gray-950 text-white p-10'>
       <div>
         <Logo className='my-3' />
         <p className='text-sm'>
@@ -65,4 +34,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Footer

@@ -32,14 +32,14 @@ const CategoryList = () => {
     return (
         <section className='flex justify-center items-center gap-5'>
             {categories.map(({ category, path, image }, i) => (
-                <div key={i} className='flex justify-center items-center w-33 h-33 my-10 rounded-full bg-cover bg-center' style={{ 'background': `url(${image})` }}>
+                <div key={i} className='flex justify-center items-center md:w-33 md:h-33 w-15 h-15 my-10 rounded-full bg-cover bg-center' style={{ 'background': `url(${image})` }}>
                     <Link
                         key={i}
                         to={`/categories/${category.toLowerCase()}`}
-                        className='flex h-32 w-32 items-center justify-center rounded-full bg-contain bg-center bg-no-repeat'
+                        className='flex md:w-33 md:h-33 w-15 h-15 items-center justify-center rounded-full bg-contain bg-center bg-no-repeat'
                         style={{ backgroundImage: `url(${image})` }}
                     >
-                        <h2 className='rounded bg-black/50 px-2 py-1 text-white'>
+                        <h2 className='rounded bg-black/50 md:px-2 md:py-1 md:text-xl text-xs text-white'>
                             {category}
                         </h2>
                     </Link>

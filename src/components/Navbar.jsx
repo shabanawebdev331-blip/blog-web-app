@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className='hidden md:block sm:block'>
         <Link to='/' className={`hover:bg-primary hover:text-white py-2 px-5 duration-200 rounded-md ${location.pathname === "/" ? 'text-primary font-semibold' : 'text-black'}`} >Home</Link>
         <Link to='/blog' className={`hover:bg-primary hover:text-white py-2 px-5 duration-200 rounded-md ${location.pathname === "/blog" ? 'text-primary font-semibold' : 'text-black'}`} >Blog</Link>
-        <Link to='/categories' className={`hover:bg-primary hover:text-white py-2 px-5 duration-200 rounded-md ${location.pathname === "/categories" ? 'text-primary font-semibold' : 'text-black'}`} >Category</Link>
+        <Link to='/blog/newblog' className={`hover:bg-primary hover:text-white py-2 px-5 duration-200 rounded-md ${location.pathname === "/blog/newblog" ? 'text-primary font-semibold' : 'text-black'}`} >Add Blog</Link>
         <Link to='/contact' className={`hover:bg-primary hover:text-white py-2 px-5 duration-200 rounded-md ${location.pathname === "/contact" ? 'text-primary font-semibold' : 'text-black'}`} >Contact</Link>
       </nav>
       <nav className='block sm:hidden'>
